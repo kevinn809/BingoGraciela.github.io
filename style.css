@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(#4c00ff, #ff00bb) no-repeat;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+header{
+
+    padding-top: 20px;
+    text-align: center;
+}
+
+.links {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 0px;
+}
+
+.contenedor-faceboock {
+    text-align: center;
+    width: 200px;
+    margin: 5vh;
+    padding: 10px;
+    border-radius: 10px; 
+    background-color: #3b5998;
+    border: 2px solid #060606;
+}
+
+.contenedor-whattsapp{
+    text-align: center;
+    width: 200px;
+    margin: 5vh;
+    padding: 10px;
+    border-radius: 10px; 
+    background-color: #25D366;
+    border: 2px solid #060606;
+}
+a{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.contenedor-whattsapp:hover, .contenedor-faceboock:hover{
+    transition: 0.5s;
+    border-radius: 100px;
+    cursor: pointer;
+}
+header h1:hover{
+    transition: 0.5s;
+    cursor: default;
+    color: white;
+}
